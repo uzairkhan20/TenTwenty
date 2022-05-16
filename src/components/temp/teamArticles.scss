@@ -1,0 +1,55 @@
+/*--------------- GLOBAL VARIABLES ------------*/
+
+$font-variant-1: 'Playfair Display', serif;
+$font-variant-2: 'Roboto', sans-serif;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+$light-color: #fff;
+$dark-color: #000;
+
+$accent-color-1:#F8F1E8;
+$accent-color-2:#EDC47F;
+$accent-color-3:#F0C0C1;
+$accent-color-4:#74BDB1;
+$accent-color-5:#DD6849;
+$accent-color-6:#AEAEAC;
+
+.team-articles-wrapper{
+    .section-header h2{
+        color:$accent-color-4;
+    }
+    .team-articles{
+        .container{
+            background-color: $accent-color-1;
+            padding: 40px 0 60px;
+    
+            .row{
+                padding: 0 22px;
+                .col-3{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+         
+        .article-wrapper {
+            .article-content{
+                padding: 0 20px;
+            }
+            .tag{
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 4px 14px;
+                margin:30px 0 23px;
+            }
+            .title{
+                margin-bottom: 23px;
+            }
+    
+            
+        }
+    }
+}
+

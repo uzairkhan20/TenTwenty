@@ -1,0 +1,46 @@
+/*--------------- GLOBAL VARIABLES ------------*/
+
+$font-variant-1: 'Playfair Display', serif;
+$font-variant-2: 'Roboto', sans-serif;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+$light-color: #fff;
+$dark-color: #000;
+
+$accent-color-1:#F8F1E8;
+$accent-color-2:#EDC47F;
+$accent-color-3:#F0C0C1;
+$accent-color-4:#74BDB1;
+$accent-color-5:#DD6849;
+$accent-color-6:#AEAEAC;
+
+
+.featured-articles{
+     
+    .article-wrapper.sticky-post{
+    
+        .title{
+            font-size: 28px;
+            font-weight: $font-medium;
+            margin-bottom: 25px;
+        }
+        p{
+            margin-bottom: 21px;
+        }
+        .author{
+            margin-bottom: 24px;
+            display: block;
+        }
+        .article-content{
+            padding: 0 5rem;
+        }
+    }
+    .article-wrapper{
+        .nomedia{
+            margin-bottom: 52px;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+/*--------------- GLOBAL VARIABLES ------------*/
+
+$font-variant-1: 'Playfair Display', serif;
+$font-variant-2: 'Roboto', sans-serif;
+$font-thin:100;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+$light-color: #fff;
+$dark-color: #000;
+
+$accent-color-1:#F8F1E8;
+$accent-color-2:#EDC47F;
+$accent-color-3:#F0C0C1;
+$accent-color-4:#74BDB1;
+$accent-color-5:#DD6849;
+$accent-color-6:#AEAEAC;
+
+.story-articles-wrapper{
+    .section-header h2{
+        color:$accent-color-3;
+    }
+    .story-articles{
+        background-color: $accent-color-1;
+        .story-heading{
+            text-align: center;
+            margin: 0 0 70px;
+            span{
+                font-family: $font-variant-2;
+                font-weight: 700;
+                background-color: #000;
+                color: #fff;
+                padding: 5px 14px;
+                text-transform: uppercase;
+                font-size: 14px;
+                display: inline-block;
+            }
+        }
+        .story-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 50px 50px;
+    
+            > div{
+                flex: 1 1 0;
+            }
+            .article-content{
+                padding: 0 30px;
+                .tag{
+                    font-size: 14px;
+                    margin: 0;
+                }
+                .title{
+                    font-size: 28px;
+                    font-weight: $font-medium;
+                    margin: 34px 0 25px;
+                    padding-right: 30px;
+                }
+                p{
+                    font-family: $font-variant-2;
+                    font-weight: $font-medium;
+                }
+            }
+            img{
+                mix-blend-mode: multiply;
+            }
+            
+            .story-content-light{
+                .tag{
+                    background-color: transparent;
+                    color: $dark-color;
+                    border: 1px solid $dark-color;
+                }
+                .title{
+                    opacity: 0.2;
+                }
+                p{
+                    font-weight: $font-thin;
+                    opacity: 0.2;
+                }
+            }
+        }
+    }
+}

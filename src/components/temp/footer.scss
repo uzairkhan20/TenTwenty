@@ -1,0 +1,124 @@
+/*--------------- GLOBAL VARIABLES ------------*/
+
+$font-variant-1: 'Playfair Display', serif;
+$font-variant-2: 'Roboto', sans-serif;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-black: 900;
+
+$light-color: #fff;
+$dark-color: #000;
+
+$accent-color-1:#F8F1E8;
+$accent-color-2:#EDC47F;
+$accent-color-3:#F0C0C1;
+$accent-color-4:#74BDB1;
+$accent-color-5:#DD6849;
+$accent-color-6:#AEAEAC;
+
+$default-container:1325px;
+
+footer{
+    margin-bottom: 53px;
+
+    .container{
+        padding: 61.5px 0 32.5px;
+        border-top: 3px dashed #AEAEAC;
+        border-bottom: 3px dashed #AEAEAC;
+
+        .widget{
+            h6{
+                font-family: $font-variant-2;
+                font-weight: $font-bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+            .footer-nav{
+                list-style-type: none;
+                .nav-item{
+                    margin-bottom: 5px;
+                    .nav-links{
+                        font-family: $font-variant-2;
+                        font-weight: $font-medium;
+                        color: $dark-color;
+                        font-size: 14px;
+                        text-decoration: none;
+                        transition: 0.5s all;
+                        &:hover{
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+            &.subscribe-widget{
+                max-width: 307px;
+                margin: 0 0 0 auto;
+                h6{
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-family: $font-variant-2;
+                    font-weight: $font-medium;
+                    font-size: 14px;
+                    margin-bottom: 18px;
+                }
+                form{
+                    background-color: $accent-color-1;
+                    border: 1px solid $accent-color-1;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 3px;
+                    .input-elem{
+                        padding: 15px 19px;
+                        background: transparent;
+                        border: none;
+                        outline: 0;
+                        &::placeholder{
+                            font-family: $font-variant-2;
+                            font-weight: $font-bold;
+                            color: $dark-color;
+                            font-size: 12px;
+                        }
+                    }
+                    input[type='submit']{
+                        font-family: $font-variant-2;
+                        font-weight: $font-bold;
+                        color: $dark-color;
+                        background-color: #F2F2EA;
+                        font-size: 12px;
+                        padding: 12px 23px;
+                        border: none;
+                        cursor: pointer;
+                        transition: 0.3s all;
+                        &:hover{
+                            background-color: $accent-color-2;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-nav{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0 0 0;
+            .nav-links{
+                font-family: $font-variant-2;
+                font-weight: $font-bold;
+                color: $dark-color;
+                font-size: 12px;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: 0.3s all;
+                &:hover{
+                    padding: 0px 2pc;
+                    
+                }
+            }
+        }
+    }
+}

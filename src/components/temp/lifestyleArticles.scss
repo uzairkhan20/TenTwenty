@@ -1,0 +1,47 @@
+/*--------------- GLOBAL VARIABLES ------------*/
+
+$font-variant-1: 'Playfair Display', serif;
+$font-variant-2: 'Roboto', sans-serif;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+
+$light-color: #fff;
+$dark-color: #000;
+
+$accent-color-1:#F8F1E8;
+$accent-color-2:#EDC47F;
+$accent-color-3:#F0C0C1;
+$accent-color-4:#74BDB1;
+$accent-color-5:#DD6849;
+$accent-color-6:#AEAEAC;
+
+.lifestyle-articles-wrapper{
+    .section-header h2{
+        color:$accent-color-3;
+    }
+    .lifestyle-articles {
+        
+        .article-wrapper.side-by-side.sticky-post  {
+            a {
+                
+                align-items: center;
+                
+                figure{
+                    flex: 1.5 2 0;
+                }
+                .article-content{
+                    flex:1 1 0;
+                    padding: 0 30px;
+    
+                    .title{
+                        font-size: 28px;
+                        font-weight: 500;
+                        margin-bottom: 25px;
+                    }
+                }
+            }    
+        }
+        
+    }
+}
